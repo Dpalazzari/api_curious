@@ -31,20 +31,22 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-
+gem 'faraday'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'pry-state'
   gem 'rspec-rails', '~> 3.5'
+  gem 'capybara'
+  gem 'launchy'
   gem 'rspec-json_expectations'
   gem 'factory_girl_rails'
   gem 'database_cleaner'
   gem 'faker'
   gem 'shoulda-matchers', '~> 3.1'
   gem 'simplecov', :require => false, :group => :test
+  gem 'rack_session_access'
 end
 
 group :development do

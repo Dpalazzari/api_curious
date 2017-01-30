@@ -14,6 +14,7 @@
 require 'simplecov'
 SimpleCov.start 'rails'
 require "rspec/json_expectations"
+require "rack_session_access/capybara"
 # The `.rspec` file also contains a few flags that are not defaults but that
 # users commonly want.
 #
