@@ -16,7 +16,6 @@ ActiveRecord::Schema.define(version: 20170130204835) do
   enable_extension "plpgsql"
 
   create_table "users", force: :cascade do |t|
-    t.string   "provider"
     t.string   "uid"
     t.string   "name"
     t.string   "token"
