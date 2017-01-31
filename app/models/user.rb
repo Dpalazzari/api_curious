@@ -4,6 +4,7 @@ class User < ApplicationRecord
 		find_or_create_by(uid: auth_info['id']) do |user|
 			user.uid 	  	= auth_info['id']
 			user.name   	= auth_info['name']
+			user.login		= auth_info['login']
 			user.location = auth_info['location'] #string
 			user.token  	= token
 			user.avatar 	= auth_info['avatar_url']

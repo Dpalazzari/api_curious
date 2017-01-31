@@ -18,6 +18,7 @@ ActiveRecord::Schema.define(version: 20170130204835) do
   create_table "users", force: :cascade do |t|
     t.string   "uid"
     t.string   "name"
+    t.string   "login"
     t.string   "token"
     t.string   "avatar"
     t.string   "location"

@@ -1,7 +1,7 @@
 class SessionsController < ApplicationController
 
 	def create
-		user 	 = Authentication.visit(params[:code])
+		user 	 = Authentication.github_sign_in(params[:code])
 		if user.save
 			session[:user_id] = user.id
 			redirect_to dashboard_index_path
