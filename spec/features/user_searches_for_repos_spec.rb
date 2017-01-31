@@ -2,13 +2,10 @@ require 'rails_helper'
 
 describe "User can view all their repos" do
 	it "valid repos" do
-		user = create(:user)
 
-		page.set_rack_session(user_id: user.id)
+		visit root_path
 
-		visit dashboard_index_path
-
-		fill_in :q, with: user.login
+		fill_in :q, with: 'Dpalazzari'
 
 		click_on "Find Repos"
 

@@ -3,4 +3,9 @@
 
 <%= link_to "Login thru Github", "https://github.com/login/oauth/authorize?client_id=#{ENV['client_id']}" %>
 
-  
+ <%= form_tag :search, method: :get, class: "form-inline" do %>
+  <div class="form-group search-field">
+    <%= text_field_tag :q, "Enter Github user...", class: "form-control" %>
+    <%= submit_tag "Find Repos", class: "btn btn-primary" %>
+  </div>
+<% end %>
