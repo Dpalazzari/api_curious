@@ -1,8 +1,7 @@
 FactoryGirl.define do
   factory :user do
-    provider "MyString"
-    uid "MyString"
-    name "MyString"
-    token "MyString"
+    uid "44444"
+    name Faker::GameOfThrones.character
+    token "abunchofbs"
   end
 end
