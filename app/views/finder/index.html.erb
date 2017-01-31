@@ -1,0 +1,12 @@
+<h1><%= current_user.name %>'s repositories</h1>
+
+<% @repos.each do |repo| %>
+  <ul class='repo'>
+  	<li><%= repo.name %></li>
+  	<li><%= repo.url %></li>
+  	<li><%= repo.issues %></li>
+  	<li><%= repo.language %></li>
+  </ul>
+<% end %>
+
+<%= link_to "Profile", dashboard_index_path %>
