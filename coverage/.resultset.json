@@ -38,7 +38,28 @@
         1,
         null,
         1,
-        2,
+        4,
+        null,
+        null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/sessions_controller.rb": [
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
         null,
         null
       ],
@@ -57,27 +78,6 @@
         0
       ],
       "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/channels/application_cable/connection.rb": [
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/sessions_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
         0,
         0,
         0,
@@ -107,6 +107,6 @@
         0
       ]
     },
-    "timestamp": 1485830352
+    "timestamp": 1485830517
   }
 }

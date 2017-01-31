@@ -13,6 +13,20 @@ RSpec.describe 'Login path', type: :feature do
 			expect(page).to have_link("Logout")
 			expect(current_path).to eq(dashboard_index_path)
 		end
+
+		it 'user decides to logout' do
+			user = create(:user)
+
+			page.set_rack_session(user_id: user.id)
+
+			visit dashboard_index_path
+
+			click_on 'Logout'
+
+			expect(page).to_not have_content(user.name)
+			expect(page).to have_link("Login thru Github")
+			expect(current_path).to eq(root_path)
+		end
 	end
 
 	context 'as a visitor' do
