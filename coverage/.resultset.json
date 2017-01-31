@@ -5,7 +5,31 @@
         1,
         null
       ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/home_controller.rb": [
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/user.rb": [
+        1,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/dashboard_controller.rb": [
         1,
         null,
         1,
@@ -20,7 +44,36 @@
         1,
         null,
         1,
+        24,
+        null,
+        null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/sessions_controller.rb": [
+        1,
+        null,
+        1,
         0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/home_controller.rb": [
+        1,
+        null,
+        1,
+        null,
         null,
         null
       ],
@@ -75,27 +128,7 @@
         0,
         0
       ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/dashboard_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/sessions_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/finder_controller.rb": [
         0,
         0,
         0,
@@ -114,11 +147,6 @@
         0,
         0
       ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/application_record.rb": [
-        0,
-        0,
-        0
-      ],
       "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/authentication.rb": [
         0,
         0,
@@ -132,7 +160,8 @@
         0,
         0
       ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/user.rb": [
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/user_repos.rb": [
+        0,
         0,
         0,
         0,
@@ -150,8 +179,18 @@
         0,
         0,
         0
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/user_repos_service.rb": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
       ]
     },
-    "timestamp": 1485897016
+    "timestamp": 1485904885
   }
 }
