@@ -4,6 +4,11 @@ class CreateUsers < ActiveRecord::Migration[5.0]
       t.string :uid
       t.string :name
       t.string :token
+      t.string :avatar
+      t.string :location
+      t.integer :public_repos
+      t.integer :public_gists
+      t.integer :private_gists
 
       t.timestamps
     end

@@ -19,8 +19,13 @@ ActiveRecord::Schema.define(version: 20170130204835) do
     t.string   "uid"
     t.string   "name"
     t.string   "token"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
+    t.string   "avatar"
+    t.string   "location"
+    t.integer  "public_repos"
+    t.integer  "public_gists"
+    t.integer  "private_gists"
+    t.datetime "created_at",    null: false
+    t.datetime "updated_at",    null: false
   end
 
 end
