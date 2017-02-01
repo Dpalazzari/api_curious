@@ -29,6 +29,26 @@
         1,
         null
       ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/github_service.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null,
+        null,
+        null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/user_repos_service.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
       "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/dashboard_controller.rb": [
         1,
         null,
@@ -44,7 +64,7 @@
         1,
         null,
         1,
-        29,
+        31,
         null,
         null
       ],
@@ -92,26 +112,16 @@
         1,
         null,
         1,
-        1,
-        0,
-        0,
-        0,
+        22,
+        22,
+        22,
+        22,
         null,
         null,
         1,
         1,
-        1,
+        22,
         null,
-        null,
-        null,
-        null
-      ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/user_repos_service.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
         null,
         null,
         null
@@ -141,16 +151,6 @@
         1,
         22,
         null,
-        null,
-        null,
-        null
-      ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/github_service.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
         null,
         null,
         null
@@ -191,6 +191,6 @@
         0
       ]
     },
-    "timestamp": 1485975836
+    "timestamp": 1485978727
   }
 }
