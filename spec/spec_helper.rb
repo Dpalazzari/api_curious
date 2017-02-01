@@ -14,6 +14,7 @@
 require 'simplecov'
 SimpleCov.start 'rails'
 require "rspec/json_expectations"
+require "rack_session_access/capybara"
 # The `.rspec` file also contains a few flags that are not defaults but that
 # users commonly want.
 #
@@ -31,6 +32,7 @@ RSpec.configure do |config|
     # ...rather than:
     #     # => "be bigger than 2"
     expectations.include_chain_clauses_in_custom_matcher_descriptions = true
+    config.backtrace_exclusion_patterns << /\.rvm\/gems/
   end
 
   # rspec-mocks config goes here. You can use an alternate test double

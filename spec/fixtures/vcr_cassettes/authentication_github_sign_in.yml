@@ -1,0 +1,125 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://github.com/login/oauth/access_token?client_id=&client_secret=&code=6bfb13b942de0a310896
+    body:
+      encoding: UTF-8
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Content-Length:
+      - '0'
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 404
+      message: Not Found
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 01 Feb 2017 20:04:58 GMT
+      Content-Type:
+      - text/plain; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Status:
+      - 404 Not Found
+      Cache-Control:
+      - no-cache
+      Vary:
+      - X-PJAX
+      X-Ua-Compatible:
+      - IE=Edge,chrome=1
+      X-Request-Id:
+      - a4bfa6bbbbf48a0f935b172725b111b2
+      X-Runtime:
+      - '0.006944'
+      Content-Security-Policy:
+      - default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';
+        img-src data:; script-src 'self'; style-src 'unsafe-inline'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      Public-Key-Pins:
+      - max-age=5184000; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18=";
+        pin-sha256="RRM1dGqnDFsCJXBTHky16vi1obOlCgFFn/yOhI/y+ho="; pin-sha256="k2v657xBsOVe1PQRwOsHsw3bsGT2VzIqz5K+59sNQws=";
+        pin-sha256="K87oWBWM9UZfyddvDfoxL+8lpNyoUB2ptGtn0fv6G2Q="; pin-sha256="IQBnNBEiFuhj+8x6X8XLgh01V9Ic5/V3IRQLNFFc7v4=";
+        pin-sha256="iie1VXtL7HzAMF+/PVPR9xzT80kQxdZeJ+zduCB3uj0="; pin-sha256="LvRiGEjRqfzurezaWuj8Wie2gyHMrW5Q06LspMnox7A=";
+        includeSubDomains
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Github-Request-Id:
+      - CE87:5749:47A2A3C:70BC3EF:58923F6A
+    body:
+      encoding: ASCII-8BIT
+      string: Not Found
+    http_version: 
+  recorded_at: Wed, 01 Feb 2017 20:04:58 GMT
+- request:
+    method: get
+    uri: https://api.github.com/user?access_token=Found
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Server:
+      - GitHub.com
+      Date:
+      - Wed, 01 Feb 2017 20:04:58 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Content-Length:
+      - '83'
+      Status:
+      - 401 Unauthorized
+      X-Github-Media-Type:
+      - github.v3; format=json
+      X-Ratelimit-Limit:
+      - '60'
+      X-Ratelimit-Remaining:
+      - '0'
+      X-Ratelimit-Reset:
+      - '1485981178'
+      Access-Control-Expose-Headers:
+      - ETag, Link, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset,
+        X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval
+      Access-Control-Allow-Origin:
+      - "*"
+      Content-Security-Policy:
+      - default-src 'none'
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubdomains; preload
+      X-Content-Type-Options:
+      - nosniff
+      X-Frame-Options:
+      - deny
+      X-Xss-Protection:
+      - 1; mode=block
+      X-Github-Request-Id:
+      - CE88:6974:4AD3463:57BC342:58923F6A
+    body:
+      encoding: UTF-8
+      string: '{"message":"Bad credentials","documentation_url":"https://developer.github.com/v3"}'
+    http_version: 
+  recorded_at: Wed, 01 Feb 2017 20:04:58 GMT
+recorded_with: VCR 3.0.3

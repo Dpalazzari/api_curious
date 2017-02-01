@@ -1,0 +1,10 @@
+<h1>Repos</h1>
+
+<% @repos.each do |repo| %>
+  <ul class='repo'>
+  	<li><%= repo.name %></li>
+  	<li><%= repo.url %></li>
+  	<li><%= repo.issues %></li>
+  	<li><%= repo.language %></li>
+  </ul>
+<% end %>

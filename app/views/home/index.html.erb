@@ -1,0 +1,6 @@
+ <%= form_tag :search, method: :get, class: "form-inline" do %>
+  <div class="form-group search-field">
+    <%= text_field_tag :q, "Github user's name ex: Dpalazzari", class: "form-control", id: 'search-field' %><br>
+    <%= submit_tag "Find Repos", class: "btn btn-primary" %>
+  </div>
+<% end %>
