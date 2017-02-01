@@ -1,0 +1,10 @@
+<h1><%= current_user.name %>'s repositories</h1>
+
+<% @starred_repos.each do |repo| %>
+  <ul class='repo'>
+    <li><%= repo.owner %></li>
+    <li><%= link_to "#{repo.name}", "#{repo.url}" %></li>
+    <li>Open Pull Requests: <%= repo.issues %></li>
+    <li><%= repo.language %></li>
+  </ul>
+<% end %>
