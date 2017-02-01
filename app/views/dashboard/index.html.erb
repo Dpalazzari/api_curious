@@ -1,9 +1,11 @@
 <section class='page'>
 	<section class='user-info'>
-	  <img id='user-pic' src="<%= current_user.avatar %>"/>
-	  <h2><%= current_user.name %></h2>
-	  <p><%= current_user.login %></p>
-	  <p><img src="https://cdn3.iconfinder.com/data/icons/stroke/53/Location-512.png"> <%= current_user.location %></p>
+	  <div>
+	    <img id='user-pic' src="<%= current_user.avatar %>"/>
+	    <h2><%= current_user.name %></h2>
+	    <p><%= current_user.login %></p>
+	    <p><img src="https://cdn3.iconfinder.com/data/icons/stroke/53/Location-512.png"> <%= current_user.location %></p>
+	  </div>
 	</section>
 
 	<section>

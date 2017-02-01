@@ -2,7 +2,7 @@
 
 <% @repos.each do |repo| %>
   <ul class='repo'>
-  	<li><%= link_to repo.name, "#{repo.url}" %></li>
+  	<li><%= link_to "#{repo.name}", "#{repo.url}" %></li>
   	<li>Open Pull Requests: <%= repo.issues %></li>
   	<li><%= repo.language %></li>
   </ul>

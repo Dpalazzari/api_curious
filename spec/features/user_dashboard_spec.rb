@@ -9,7 +9,7 @@ RSpec.describe 'Login path', type: :feature do
 
 			visit dashboard_index_path
 
-			expect(page).to have_content("Hello, #{user.name}")
+			expect(page).to have_content(user.name)
 			expect(page).to have_link("Logout")
 			expect(current_path).to eq(dashboard_index_path)
 		end
