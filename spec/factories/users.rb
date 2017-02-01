@@ -4,5 +4,6 @@ FactoryGirl.define do
     login "Dpalazzari"
     name Faker::GameOfThrones.character
     token "abunchofbs"
+    avatar Faker::Avatar.image
   end
 end

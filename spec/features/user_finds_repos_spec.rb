@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'Github authenticated user', type: :feature do
 	context 'as a authenticated user' do
-		xit 'user views github repositories' do
+		it 'user views github repositories' do
 			user = create(:user)
 
 			page.set_rack_session(user_id: user.id)
