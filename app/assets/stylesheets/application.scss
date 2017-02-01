@@ -49,8 +49,10 @@ a:hover {
 		}
 		a:hover {
 			text-decoration: none;
-			color: #5FABD5;
 		}
+	}
+	section:nth-of-type(4):hover {
+		border-bottom: 2px solid #c9510c;
 	}
 }
 
@@ -77,5 +79,11 @@ a:hover {
 	p:nth-of-type(3), p:nth-of-type(4), p:nth-of-type(5) {
 		font-size: 14px;
 		color: #828386;
+	}
+}
+
+.repo {
+	a{
+	margin-left: 0px;
 	}
 }
