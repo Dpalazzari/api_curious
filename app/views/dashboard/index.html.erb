@@ -1,12 +1,15 @@
 
   <img id='user-pic' src="<%= current_user.avatar %>"/><br>
 <section class='user-info'>
-  <h1><%= current_user.name %></h1>
+  <h2><%= current_user.name %></h2>
   <p><%= current_user.login %></p>
   <p><img src="https://cdn3.iconfinder.com/data/icons/stroke/53/Location-512.png"> <%= current_user.location %></p>
-  <p>Repositories (<%= current_user.public_repos %>)</p>
-  <p>Private Gists: <%= current_user.private_gists %></p>
-  <p>Public Gists: <%= current_user.public_gists %></p>
+</section>
+
+<section>
+	<p><%= link_to "Repositories (#{current_user.public_repos})", find_repos_path %></p>
+  	<p>Private Gists: <%= current_user.private_gists %></p>
+  	<p>Public Gists: <%= current_user.public_gists %></p>
 </section>
 
 

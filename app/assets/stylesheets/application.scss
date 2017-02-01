@@ -27,16 +27,22 @@ a:hover {
 }
 
 #user-pic {
-	border-radius: 8%;
-	height: 300px;
+	border-radius: 3%;
+	height: 275px;
+	width: 275px;
 	margin-left: 150px;
 }
 
 .user-info {
 	margin-left: 150px;
 
+	h2 {
+		margin-bottom: -5px;
+	}
+
 	p {
 		font-size: 24px;
+		color: #737477;
 
 	}
 	p:nth-of-type(2) {
@@ -50,5 +56,18 @@ a:hover {
 	p:nth-of-type(3), p:nth-of-type(4), p:nth-of-type(5) {
 		font-size: 14px;
 		color: #828386;
+	}
+	
+}
+
+section:nth-of-type(2) {
+	margin-left: 150px;
+
+	a{
+		color: #69696C;
+	}
+	a:hover {
+		text-decoration: none;
+		color: #5FABD5;
 	}
 }
