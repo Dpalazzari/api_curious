@@ -30,7 +30,28 @@ a:hover {
 	border-radius: 3%;
 	height: 275px;
 	width: 275px;
-	margin-left: 150px;
+}
+
+.page {
+	section {
+	    display: inline-block;
+	    padding-left: 50px;
+	    padding-right: 50px;
+	}
+	section:nth-of-type(2), section:nth-of-type(3), section:nth-of-type(4) {
+		font-size: 14px;
+    	color: #767676;
+    	border-bottom: 2px solid #767676;
+	}
+	section:nth-of-type(4) {
+		a{
+			color: #767676;
+		}
+		a:hover {
+			text-decoration: none;
+			color: #5FABD5;
+		}
+	}
 }
 
 .user-info {
@@ -56,18 +77,5 @@ a:hover {
 	p:nth-of-type(3), p:nth-of-type(4), p:nth-of-type(5) {
 		font-size: 14px;
 		color: #828386;
-	}
-	
-}
-
-section:nth-of-type(2) {
-	margin-left: 150px;
-
-	a{
-		color: #69696C;
-	}
-	a:hover {
-		text-decoration: none;
-		color: #5FABD5;
 	}
 }
