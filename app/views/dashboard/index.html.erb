@@ -1,14 +1,12 @@
-<h1>Hello, <%= current_user.name %></h1><br/>
-<h3>Github user: <%= current_user.login %></h3><br/>
-<h5>Location: <%= current_user.location %></h5><br/>
-<h5>Public Repositories: <%= current_user.public_repos %></h5><br>
-<h5>Private Gists: <%= current_user.private_gists %></h5><br>
-<h5>Public Gists: <%= current_user.public_gists %></h5><br>
 
-<img src="<%= current_user.avatar %>"/><br>
+  <img id='user-pic' src="<%= current_user.avatar %>"/><br>
+<section class='user-info'>
+  <h1><%= current_user.name %></h1>
+  <p><%= current_user.login %></p>
+  <p><img src="https://cdn3.iconfinder.com/data/icons/stroke/53/Location-512.png"> <%= current_user.location %></p>
+  <p>Repositories (<%= current_user.public_repos %>)</p>
+  <p>Private Gists: <%= current_user.private_gists %></p>
+  <p>Public Gists: <%= current_user.public_gists %></p>
+</section>
 
 
-<% if current_user %>
-	<%= link_to "Logout", logout_path %>
-	<%= link_to "Repos", find_repos_path %>
-<% end %>
