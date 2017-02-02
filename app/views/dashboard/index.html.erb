@@ -6,7 +6,7 @@
 	    <p><img src="https://cdn3.iconfinder.com/data/icons/stroke/53/Location-512.png"> <%= current_user.location %></p>
 	</section>
 		<section>
-		  	<p>Private Gists: <%= current_user.private_gists %></p>
+		  	<p><%= link_to "Followed Github Users", followed_path %></p>
 		</section>
 		<section>
 		  	<p><%= link_to "Starred Repos", starred_repos_path  %></p>

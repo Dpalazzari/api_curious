@@ -16,8 +16,7 @@ describe "USer can view all their followers" do
 
       within first('.followed') do
         expect(page).to have_content('Sh1pley')
-        expect(page).to have_css("img[src='https://avatars.githubusercontent.com/u/12022194?v=3']")
-        expect(page).to have_link("View Github Profile") #link to followed_users github account
+        expect(page).to have_link("View Github Profile")
       end
     end
   end
