@@ -23,7 +23,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 02 Feb 2017 17:47:53 GMT
+      - Thu, 02 Feb 2017 18:12:15 GMT
       Content-Type:
       - text/plain; charset=utf-8
       Transfer-Encoding:
@@ -37,9 +37,9 @@ http_interactions:
       X-Ua-Compatible:
       - IE=Edge,chrome=1
       X-Request-Id:
-      - 97bc644468baa00ad12775376fd1e2c7
+      - 7679ca1cf98733a2fdc79a7ef47573d4
       X-Runtime:
-      - '0.035003'
+      - '0.005407'
       Content-Security-Policy:
       - default-src 'none'; base-uri 'self'; connect-src 'self'; form-action 'self';
         img-src data:; script-src 'self'; style-src 'unsafe-inline'
@@ -58,12 +58,12 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Github-Request-Id:
-      - E425:A1F2:4CC48E5:7B29B9F:589370C9
+      - E55B:A1F3:6287B61:9E43BFC:5893767F
     body:
       encoding: ASCII-8BIT
       string: Not Found
     http_version: 
-  recorded_at: Thu, 02 Feb 2017 17:47:53 GMT
+  recorded_at: Thu, 02 Feb 2017 18:12:15 GMT
 - request:
     method: get
     uri: https://api.github.com/user?access_token=Found
@@ -85,7 +85,7 @@ http_interactions:
       Server:
       - GitHub.com
       Date:
-      - Thu, 02 Feb 2017 17:47:53 GMT
+      - Thu, 02 Feb 2017 18:12:16 GMT
       Content-Type:
       - application/json; charset=utf-8
       Content-Length:
@@ -97,7 +97,7 @@ http_interactions:
       X-Ratelimit-Limit:
       - '60'
       X-Ratelimit-Remaining:
-      - '49'
+      - '25'
       X-Ratelimit-Reset:
       - '1486060076'
       Access-Control-Expose-Headers:
@@ -116,10 +116,10 @@ http_interactions:
       X-Xss-Protection:
       - 1; mode=block
       X-Github-Request-Id:
-      - E426:050E:AEB120A:DD23EFA:589370C9
+      - E55C:0501:AAF4D33:D810522:5893767F
     body:
       encoding: UTF-8
       string: '{"message":"Bad credentials","documentation_url":"https://developer.github.com/v3"}'
     http_version: 
-  recorded_at: Thu, 02 Feb 2017 17:47:53 GMT
+  recorded_at: Thu, 02 Feb 2017 18:12:16 GMT
 recorded_with: VCR 3.0.3

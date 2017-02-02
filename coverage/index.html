@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2017-02-02T10:47:55-07:00">2017-02-02T10:47:55-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2017-02-02T11:12:17-07:00">2017-02-02T11:12:17-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         7.93
+         7.94
        </span>
     </span> hits/line)
   </h2>
@@ -177,7 +177,7 @@
         <td>4</td>
         <td>4</td>
         <td>0</td>
-        <td>1.0</td>
+        <td>1.5</td>
       </tr>
       
       <tr>
@@ -380,7 +380,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         10.04
+         10.06
        </span>
     </span> hits/line)
   </h2>
@@ -442,7 +442,7 @@
         <td>4</td>
         <td>4</td>
         <td>0</td>
-        <td>1.0</td>
+        <td>1.5</td>
       </tr>
       
       <tr>
@@ -1542,14 +1542,14 @@
           <code class="ruby">  def self.find_commits(username, repository)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="4">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="4">
+          <span class="hits">2</span>
           
           <code class="ruby">    response = Faraday.get(&quot;https://api.github.com/repos/#{username}/#{repository}/commits?client_id=#{ENV[&#39;client_id&#39;]}&amp;client_secret=#{ENV[&#39;client_secret&#39;]}&quot;)</code>
         </li>
       
-        <li class="covered" data-hits="1" data-linenumber="5">
-          <span class="hits">1</span>
+        <li class="covered" data-hits="2" data-linenumber="5">
+          <span class="hits">2</span>
           
           <code class="ruby">    JSON.parse(response.body)</code>
         </li>
