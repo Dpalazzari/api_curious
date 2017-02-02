@@ -9,7 +9,7 @@ describe "User can view all commits for a specific repo" do
 
       visit find_repos_path
 
-      fill_in :repository, with: 'api_curious'
+      fill_in :repository, with: 'rails_engine'
 
       click_on 'Find commits'
 
@@ -17,9 +17,9 @@ describe "User can view all commits for a specific repo" do
       expect(page).to have_selector('.commit')
 
       within first('.commit') do
-        expect(page).to have_content('Drew Palazzari')
-        expect(page).to have_content('Merge pull request #2 from Dpalazzari/api-starred-repos')
-        expect(page).to have_content('2017-02-02T17:00:05Z')
+        expect(page).to have_content('Mike Schutte')
+        expect(page).to have_content("Merge pull request #55 from tmikeschu/dp/customer-favorite-merchant Dp/customer favorite merchant")
+        expect(page).to have_content('2017-01-26T16:00:11Z')
       end
     end
   end
