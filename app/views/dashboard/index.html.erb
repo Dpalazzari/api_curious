@@ -9,7 +9,7 @@
 		  	<p>Private Gists: <%= current_user.private_gists %></p>
 		</section>
 		<section>
-		  	<p>Public Gists: <%= current_user.public_gists %></p>
+		  	<p><%= link_to "Starred Repos", starred_repos_path  %></p>
 	  	</section>
 	  	<section>
 			<p><%= link_to "Repositories (#{current_user.public_repos})", find_repos_path %></p>

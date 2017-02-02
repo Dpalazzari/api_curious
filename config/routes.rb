@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 	get '/logout', to: 'sessions#destroy'
 	get '/search', to: 'search#index'
 	get '/find_repos', to: 'finder#index'
+  get '/starred_repos', to: 'starred_repos#index'
 
 	resources :dashboard, only: [:index]
 end

@@ -13,12 +13,12 @@ RSpec.describe 'Github authenticated user', type: :feature do
 			expect(page).to have_link("Logout")
 			expect(current_path).to eq(dashboard_index_path)
 
-			click_on "Repos"
+			click_on "Repositories"
 
 			within first('.repo') do
 				expect(page).to have_content('api_curious')
 				expect(page).to have_content(1)
-				expect(page).to have_content('Ruby')
+				expect(page).to have_content('HTML')
 			end
 		end
 	end
