@@ -33,7 +33,7 @@
         1,
         null,
         1,
-        39,
+        49,
         null,
         null
       ],
@@ -88,8 +88,8 @@
         1,
         null,
         1,
-        1,
-        1,
+        2,
+        2,
         null,
         null,
         null
@@ -149,6 +149,36 @@
         null,
         null
       ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/starred_repos_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/starred_repos.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        4,
+        4,
+        4,
+        4,
+        4,
+        null,
+        null,
+        1,
+        1,
+        4,
+        null,
+        null,
+        null,
+        null
+      ],
       "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/search_controller.rb": [
         1,
         null,
@@ -177,38 +207,8 @@
         null,
         null,
         null
-      ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/starred_repos_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
-      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/starred_repos.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1485985887
+    "timestamp": 1486052935
   }
 }
