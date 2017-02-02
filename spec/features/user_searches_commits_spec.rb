@@ -5,11 +5,13 @@ describe "User can view all commits for a specific repo" do
     VCR.use_cassette("finds_all_commits") do
       user = create(:user)
 
-      page.set_rack_session
+      page.set_rack_session(user_id: user.id)
 
       visit find_repos_path
 
-      fill_in :commits, with: 'api_curious'
+      fill_in :repository, with: 'api_curious'
+
+      click_on 'Find commits'
 
       expect(current_path).to eq('/commits')
       expect(page).to have_selector('.commit')

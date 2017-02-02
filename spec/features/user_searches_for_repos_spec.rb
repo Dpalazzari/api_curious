@@ -17,7 +17,7 @@ describe "User can view all their repos" do
 				expect(page).to have_content('api_curious')
 				expect(page).to have_content('https://github.com/Dpalazzari/api_curious')
 				expect(page).to have_content(1)
-				expect(page).to have_content('Ruby')
+				expect(page).to have_content('HTML')
 			end
 		end
 	end

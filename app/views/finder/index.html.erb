@@ -1,10 +1,22 @@
 <h1><%= current_user.name %>'s repositories</h1>
+<section>
+<h3>To find commits for a repo, search by repo name:</h3>
+  <%= form_tag :commits, method: :get, class: "form-inline" do %>
+  <div class="form-group search-field">
+    <%= text_field_tag :repository, "Enter Github Repo name", class: "form-control", id: 'search-field' %>
+    <%= submit_tag "Find commits", class: 'btn btn-success' %>
+  </div>
+  <% end %>
+</section>
 
-<% @repos.each do |repo| %>
-  <ul class='repo'>
-  	<li><%= link_to "#{repo.name}", "#{repo.url}" %></li>
-  	<li>Open Pull Requests: <%= repo.issues %></li>
-  	<li><%= repo.language %></li>
-  </ul>
-<% end %>
+<section>
+  <% @repos.each do |repo| %>
+    <ul class='repo'>
+    	<li><%= link_to "#{repo.name}", "#{repo.url}" %></li>
+    	<li>Open Pull Requests: <%= repo.issues %></li>
+    	<li><%= repo.language %></li>
+    </ul>
+  <% end %>
+</section>
+
 
