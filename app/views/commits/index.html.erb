@@ -1,0 +1,11 @@
+<h1><%= current_user.login %>'s commits for <%= params[:repository] %></h1>
+
+<section>
+  <% @commits.each do |commit| %>
+    <ul class='commit'>
+      <li><%= commit.author %></li>
+      <li><%= commit.message %></li>
+      <li><%= commit.date %></li>
+    </ul>
+    <% end %>
+</section>
