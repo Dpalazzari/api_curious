@@ -3,4 +3,11 @@
 
 require_relative 'config/application'
 
+
+namespace :vcr do
+  task :delete_cassettes => :environment do
+    cassettes = (Dir['spec/fixtures/vcr_cassettes/*.yml'].map { |d| File.expand_path(d) } )
+    cassettes.each { |v| File.delete(v) }
+  end
+end
 Rails.application.load_tasks
