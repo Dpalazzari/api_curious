@@ -44,7 +44,7 @@ a:hover {
     	color: #767676;
     	border-bottom: 2px solid #767676;
 	}
-	section:nth-of-type(3), section:nth-of-type(4) {
+	section:nth-of-type(2), section:nth-of-type(3), section:nth-of-type(4) {
 		a{
 			color: #767676;
 		}
@@ -56,6 +56,9 @@ a:hover {
 		border-bottom: 2px solid #c9510c;
 	}
 	section:nth-of-type(3):hover {
+		border-bottom: 2px solid #c9510c;
+	}
+	section:nth-of-type(2):hover {
 		border-bottom: 2px solid #c9510c;
 	}
 }
@@ -90,5 +93,23 @@ a:hover {
 .repo {
 	a{
 	margin-left: 0px;
+	}
+}
+
+#followed-user {
+	border-radius: 50%;
+	border: 2px solid black;
+	width: 40%;
+}
+
+.followed-page {
+margin-left: 50px;
+margin-right: 50px;
+	ul {
+		display: inline-block;
+		width: 300px;
+			a {
+				margin-left: 0;
+			}
 	}
 }
