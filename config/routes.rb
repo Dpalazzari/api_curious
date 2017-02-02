@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 	get '/find_repos', to: 'finder#index'
   get '/starred_repos', to: 'starred_repos#index'
   get '/commits', to: 'commits#index'
+  get '/followed', to: 'followed#index'
 
 	resources :dashboard, only: [:index]
 end

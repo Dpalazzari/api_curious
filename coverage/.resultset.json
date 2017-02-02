@@ -33,7 +33,7 @@
         1,
         null,
         1,
-        55,
+        59,
         null,
         null
       ],
@@ -245,8 +245,47 @@
         null,
         null,
         null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/controllers/followed_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/followed.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/drewpalazzari/Documents/1610/M3/Projects/api_curious/app/models/followed_service.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
       ]
     },
-    "timestamp": 1486059137
+    "timestamp": 1486070502
   }
 }
