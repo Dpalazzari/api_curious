@@ -17,7 +17,6 @@ RSpec.describe 'Github authenticated user', type: :feature do
 
 			within first('.repo') do
 				expect(page).to have_content('api_curious')
-				expect(page).to have_content(1)
 				expect(page).to have_content('HTML')
 			end
 		end
