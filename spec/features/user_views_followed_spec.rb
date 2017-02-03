@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe "USer can view all their followers" do
+describe "User can view all their followers" do
   it 'shows all the followed users' do
     VCR.use_cassette("views_all_followed") do
       user = create(:user)
@@ -15,7 +15,7 @@ describe "USer can view all their followers" do
       expect(page).to have_selector('.followed')
 
       within first('.followed') do
-        expect(page).to have_content('Sh1pley')
+        expect(page).to have_content('case-eee')
         expect(page).to have_link("View Github Profile")
       end
     end

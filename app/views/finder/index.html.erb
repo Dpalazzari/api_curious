@@ -10,6 +10,16 @@
 </section>
 
 <section>
+  <h3>Create New Repository</h3>
+  <%= form_tag :new_repo, method: :get, class: "form-inline" do %>
+    <div class="form-group search-field">
+      <%= text_field_tag :new_repo, "New Repo Name", class: "form-control", id: 'search-field' %>
+      <%= submit_tag "Create Repo", class: 'btn btn-danger' %>
+    </div>
+    <% end %>
+</section>
+
+<section>
   <% @repos.each do |repo| %>
     <ul class='repo'>
     	<li><%= link_to "#{repo.name}", "#{repo.url}" %></li>
